@@ -1,0 +1,21 @@
+:root {
+  --background-rgb: 29 30 34;
+  --blue-rgb: 33 150 243;
+  --primary-rgb: var(--blue-rgb);
+  --blob-color-1: rgb(var(--blue-rgb));
+  --blob-color-2: dodgerblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(var(--background-rgb));
+  margin: 0rem;
+  overflow: auto;
+}
